@@ -10,7 +10,7 @@ int main() {
     //Random number between 0-7
   srand(time(0));
   b = rand() % 8;
-  //Sets to zero with bitwise AND while shifting the 1
+  //Set to zero with bitwise AND while shifting the 1
   //so the correct spot with left shift
   c = c|= 1 << (b-1);
   printBits(c);
