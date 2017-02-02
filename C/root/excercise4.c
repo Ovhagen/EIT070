@@ -5,20 +5,23 @@
 void printBits(int size, int val);
 
 int main() {
-  int b;
-  char c;
+  char b;
 
-  //Random number between 0-7
-  srand(time(0));
-  b = 1 + rand() % 8;
+ //Flip all bits to ones
+  b= ~(b&0);
 
-  //Set to zero with bitwise AND while shifting the 1
-  //so the correct spot with left shift
-   c|= 1 << (b-1);
+  printBits(sizeof(b), b);
 
-  printBits(sizeof(c), c);
+//  b = b&=3;
+  //Set to zero with bitwise OR while shifting the 0
+  //to the fifth position
+  b|= 1 << 4;
 
-  printf("The random number was: %d\n", (b-1));
+
+  b^=4;
+
+  printBits(sizeof(b), b);
+
   return 0;
 }
 
