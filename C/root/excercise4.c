@@ -4,6 +4,7 @@
 
 void printBits(int size, int val);
 
+//Not finished
 int main() {
   char b;
 
@@ -12,12 +13,12 @@ int main() {
 
   printBits(sizeof(b), b);
 
-//  b = b&=3;
+  //b = b&=3;
   //Set to zero with bitwise OR while shifting the 0
   //to the fifth position
   b|= 1 << 4;
 
-
+ //Why does this flip the bit on position 2? Magic...
   b^=4;
 
   printBits(sizeof(b), b);

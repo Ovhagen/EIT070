@@ -12,9 +12,9 @@ int main() {
   srand(time(0));
   b = 1 + rand() % 8;
 
-  //Set to zero with bitwise AND while shifting the 1
+  //Set to zero with bitwise OR while shifting the 1
   //so the correct spot with left shift
-   c|= 1 << (b-1);
+   c|= 1 << (b-1);g
 
   printBits(sizeof(c), c);
 
