@@ -9,7 +9,7 @@ The expected value is b = 127.
 
 
 
-
+##Setup
 
 1. What is the value of the variable “b”?
 
