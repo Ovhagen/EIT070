@@ -42,6 +42,12 @@ The expected value is b = 127.
    
    
 ##Assignment 1
-
-
+1. At which memory address is the variable “b” stored?
+*  asdasd
+2.
+*  
+3.
+*  
+4.
+*  
 ##Assignment 2
