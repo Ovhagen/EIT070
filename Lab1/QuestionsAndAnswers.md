@@ -26,7 +26,7 @@ The expected value is b = 127.
    *00001A98
 
 5. Compare the contents of the variable “b” with the contents of the affected memory address. What is the conclusion?
-*b:s value is stored in in that memory slot.
+   *b:s value is stored in in that memory slot.
 
 6.
 *
