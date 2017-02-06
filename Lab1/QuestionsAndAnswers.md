@@ -31,8 +31,16 @@ The expected value is b = 127.
 6. What is stored at that memory address?
    * b:s value is stored in in that memory slot.
 
-7.
-*
+7. Modify the contents of the memory address next to the affected memoryaddress by typing a non-zero value at that address. Does this have any impact on the variable “b”?
+   * No it does not.
 
-8.
-*
+8. How many bits are required to store a variable of type char?
+   * 8 bitar. En byte.
+
+9. Why is the value of the variable “b” larger than 10?
+   * Because we can only represent -127 then we start running running down from the maximum value 127.
+   
+   
+##Assignment 1
+
+##Assignment 2
