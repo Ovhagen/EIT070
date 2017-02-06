@@ -77,10 +77,10 @@ The expected value is b = 127.
    *  7FFFFFFF
 
 8. At which address is the most significant byte of the variable “b” stored?
-   *  00001a88  3
+   *  00001A88  3
    
 9. At which address is the least significant byte of the variable “b” stored?
-   *   00001a88  0
+   *   00001A88  0
 
 10. Which format is used (big vs. little endian)?
    *  Little endian, since FFFFFFF7.
