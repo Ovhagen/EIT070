@@ -55,3 +55,54 @@ The expected value is b = 127.
    *  8 bits. One byte.
    
 ##Assignment 2
+1. At which memory address is the variable “b” stored?
+   * 00001A88
+   
+2. Modify the contents of the memory address next to the affected memory address by typing a non-zero value at that address. Does this have any impact on the variable “b”?
+   *  Yes it will, since the variable b is represented with 4 bytes, its value will be changed.
+
+3. What happens in the memory?
+   * All the bits are set to ones since we have a signed int.
+   
+4. How many bytes are needed to store a variable of type int?
+   *  4 bytes
+
+5. What is the value of the variable “b”?
+   *  2^31 - 1
+
+6. What is the binary representation of “b”?
+   * 0b1111111111111111111111111111111
+
+7. What is the hexadecimal representation of “b”?
+   *  7FFFFFFF
+
+8. At which address is the most significant byte of the variable “b” stored?
+   *  00001a88  3
+   
+9. At which address is the least significant byte of the variable “b” stored?
+   *   00001a88  0
+
+10. Which format is used (big vs. little endian)?
+   *  Little endian, since FFFFFFF7.
+   
+##Assignment 3
+1. At which memory address is the variable “b” stored?
+   *  
+
+2. Modify the contents of the memory address next to the affected memory address by typing a non-zero value at that address. Does this have any impact on the variable “b”? 
+   *  
+
+3. What is the value of the variable “b”?
+   *  
+
+4. What happens with the memory?
+   *  
+
+5. How many bytes are needed to store a variable of type unsigned int?
+   *  
+
+6. What is the value of the variable “b”?
+   *  
+
+7. What is the difference when the keyword “unsigned” is used?
+   *  
