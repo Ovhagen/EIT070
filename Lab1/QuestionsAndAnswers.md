@@ -10,12 +10,13 @@ The expected value is b = 127.
 
 
 
+
 1. What is the value of the variable “b”?
 
-b = 127
+    ..*b = 127
 
 2. What is the binary representation of “b”?
 
-0b1111111
+    0b1111111
 
-3.
+3. Are there any changes in the memory?
