@@ -13,7 +13,7 @@ The expected value is b = 127.
 
 1. What is the value of the variable “b”?
 
-    ..*b = 127
+    ..* b = 127
 
 2. What is the binary representation of “b”?
 
