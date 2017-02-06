@@ -14,7 +14,7 @@ int main() {
 
   //Set to zero with bitwise OR while shifting the 1
   //so the correct spot with left shift
-   c|= 1 << (b-1);g
+   c|= 1 << (b-1);
 
   printBits(sizeof(c), c);
 

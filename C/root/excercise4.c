@@ -13,7 +13,7 @@ int main() {
 
   printBits(sizeof(b), b);
 
-  //b = b&=3;
+  //b&=3;
   //Set to zero with bitwise OR while shifting the 0
   //to the fifth position
   b|= 1 << 4;
