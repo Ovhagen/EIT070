@@ -35,7 +35,7 @@ The expected value is b = 127.
    * No it does not.
 
 8. How many bits are required to store a variable of type char?
-   * 8 bitar. En byte.
+   * 8 bitar. One byte.
 
 9. Why is the value of the variable “b” larger than 10?
    * Because we can only represent -127 then we start running running down from the maximum value 127.
@@ -43,11 +43,15 @@ The expected value is b = 127.
    
 ##Assignment 1
 1. At which memory address is the variable “b” stored?
-*  asdasd
-2.
-*  
-3.
-*  
-4.
-*  
+   * 00001A88 
+   
+2. What is the value of the variable “b”?
+   *  b = 255
+   
+3. Why is the value different compared to the previous case?
+   *  This time we used a unsigned char which only can represent values in the range 0-255. We will reach 0 then switch to the max value of 255 where the condition will not be fulfilled.
+   
+4. How many bits are required to store a variable of type unsigned char?
+   *  8 bits. One byte.
+   
 ##Assignment 2
