@@ -77,32 +77,82 @@ The expected value is b = 127.
    *  7FFFFFFF
 
 8. At which address is the most significant byte of the variable “b” stored?
-   *  00001A88  column 3
+   *  00001A91 (88+3)
    
 9. At which address is the least significant byte of the variable “b” stored?
-   *   00001A88  column 0
+   *   00001A88
 
 10. Which format is used (big vs. little endian)?
    *  Little endian, since FFFFFFF7.
    
 ##Assignment 3
 1. At which memory address is the variable “b” stored?
-   *  
+   *  00001A88
 
 2. Modify the contents of the memory address next to the affected memory address by typing a non-zero value at that address. Does this have any impact on the variable “b”? 
-   *  
+   *  Yes, it changes the value since the unsigned int takes 4 bytes.
 
 3. What is the value of the variable “b”?
-   *  
+   *  2^32 - 1
 
 4. What happens with the memory?
-   *  
+   *  All bits are set to ones.
 
 5. How many bytes are needed to store a variable of type unsigned int?
-   *  
+   *  4 bytes
 
 6. What is the value of the variable “b”?
-   *  
+   *  2^32 - 1
 
 7. What is the difference when the keyword “unsigned” is used?
+   *  We don't represent negative bits and all the 32 bits is used to represent a positive number.
+
+##Assignment 4
+
+1. What is the value of the variable “b”?
+   *  6800 (decimal)
+
+2. What does this value represent?
+   *  Starting value. (The value of the adress)
+
+3. Where in the memory, are the elements of the array stored?
+   *  00001A-90, -94, -98
+
+4. What is the address of the element b[3]
+   *  00001A93
+   
+
+5. What is the size of each element of the array?
+   *  8 Bits
+   
+##Assignment 5
+1. What is the value of the variable “b”?
+   *  6800 (decimal)
+
+2. What does this value represent?
+   *  Starting value. (The value of the adress)
+
+3. Where in the memory, are the elements of the array stored?
+   *  00001A90 to 00001AB4 (40 bytes)
+
+4. What is the address of the element b[3]?
+   *  
+
+5. What is the size of each element of the array?
+   *  
+
+##Assignment 6
+1. What is the value of the variable “b”?
+   *  
+
+2. What does this value represent?
+   *  
+
+3. Where in the memory, are the elements of the array stored?
+   *  
+
+4. What is the address of the element b[3]?
+   *  
+
+5. What is the size of each element of the array?
    *  
