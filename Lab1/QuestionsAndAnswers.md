@@ -136,23 +136,63 @@ The expected value is b = 127.
    *  00001A90 to 00001AB4 (40 bytes)
 
 4. What is the address of the element b[3]?
-   *  
+   *  00001A9C
 
 5. What is the size of each element of the array?
-   *  
+   *  4 bytes. (32 bits)
 
 ##Assignment 6
 1. What is the value of the variable “b”?
-   *  
+   *  0
 
-2. What does this value represent?
-   *  
+2. What is the value of the variable “address”?
+   *  0x000000 (0) and when initialized address of b (1A 78)
 
-3. Where in the memory, are the elements of the array stored?
-   *  
+3. What is stored in the memory at that memory address?
+   *  The memory address of the variable b.
 
-4. What is the address of the element b[3]?
-   *  
+4. What is the value of the variable “b”?
+   *  The value is 5. Done by pointer value change.
 
-5. What is the size of each element of the array?
-   *  
+5. What is the memory address of the variable “address”?
+   *  00001A7C
+   
+##Assignment 7
+1. Explain what this code does.
+   *  First we initiate the value of B to 0xFFFFFFF. Then we initialize the value of the address as b:S address + 3 (ask about this). Finally we change the value at the memory address at which "address" points to which sets the value of b to 0XFFFFFFFF which gives the decimal value of -1.
+   
+##Assignment 8
+1. At which memory address is the variable “counter” stored?
+   *  00001ABC (4 bytes)
+   
+2. At which memory address is the variable “state” stored?
+   *  00001AB8 (4 bytes)
+
+3. Does the variable “state”, at every point in time, have the same value as the data register of the switches? Explain the reasoning behind your answer. 
+   *  No. When we flipped a switch the SWITCHES_DATA in the data register updates instantly while the state variable changes only when we enter the loop.
+   
+   
+##Assignment 9
+1. Study the code below. Do you expect any difference?
+   *  We expect it to run as the previous code.
+
+2. What do you observe on the board?
+   *  All the LED:s truned on.
+
+3. Open the “Expression” view in the debug environment, and check the contents of the expression “*LED_DATA”. How is the expression evaluated?
+   *  The value is 0 and LED_DATA is of type Write-only which we can't read the data of LED_DATA.
+
+4. What happens when the program reads a write-only memory location?
+   *  We try to fetch the value of LED_DATA and reduce it by 1. Since we can't fetch the value of LED_DATA the value is set to -1 and all the bits are set to ones. When this happens all the LED:s are turned on.
+   
+##Assignment 10
+1. Do you observe any changes?
+   *  No.
+
+2. What happens when the program writes to a read-only memory location?
+   *  Nothing happens. It does not work.
+   
+##Assignment 11
+
+
+
