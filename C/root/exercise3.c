@@ -25,7 +25,7 @@ int main() {
 void printBits(int size, int val){
   printf("%d\n %d\n", size, val);
     unsigned int maxPow = 1 << (size * 8 - 1);
-
+    printf("MaxPow: %d\n", maxPow);
     for(int i = 0; i < size * 8; ++i){
         // print last bit and shift left.
         printf("%u", val & maxPow ? 1 : 0);
