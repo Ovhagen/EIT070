@@ -27,36 +27,36 @@
 9. What does the value stored in r15 reference to?
  * The address where the function call was made.
  
- 10. Which instructions are used to load values from memory? 
+10. Which instructions are used to load values from memory? 
   *  LW and LWI instructions.
   
-  11. Which instructions are used to store values in memory?
+11. Which instructions are used to store values in memory?
    * SW and SWI.
 
  12. Where is the variable “temp” stored?
   * The register r3.
   
-  13. What is the address of the “temp” variable?
+ 13. What is the address of the “temp” variable?
    * 0x00002bdc
    
-   14. The address of the “temp” variable is obtained by adding an immediate value to the value of register r1. What does the value in the register r1 reference to?
+ 14. The address of the “temp” variable is obtained by adding an immediate value to the value of register r1. What does the value in the register r1 reference to?
     * The stack pointer where variables are stored.
     
-  15. What is the size of the stack frame?
+15. What is the size of the stack frame?
    * r1-r19 18*4 = 64 bytes.
    
-   16. What is stored in the stack frame?
+16. What is stored in the stack frame?
     * Rturn address, Local variables, Saved registers, input arguments to callee functions.
     
-    17. Which instruction is used to return from a function call?
-     * RTSD
+17. Which instruction is used to return from a function call?
+    * RTSD
      
-     18. How does the program know where to return?
-      * The first register in the RTSD instruction.
+18. How does the program know where to return?
+     * The first register in the RTSD instruction.
       
-      19. Which register keeps the return address? 
-       * r15
+19. Which register keeps the return address? 
+     * r15
        
-       20. What happens with the stack pointer before the function returns?
-        * Adds the value of r19 to r1 and then adds 12 immediate and keep carry for r1.
+20. What happens with the stack pointer before the function returns?
+     * Adds the value of r19 to r1 and then adds 12 immediate and keep carry for r1.
      
