@@ -34,7 +34,7 @@
    * SW and SWI.
 
 12. Where is the variable “temp” stored?
-  * The register r3.
+  * The register r19 + 4. 2bd4
    
 13. What is the address of the “temp” variable?
    * 0x00002bdc
