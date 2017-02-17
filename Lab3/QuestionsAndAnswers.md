@@ -35,7 +35,7 @@
 
 12. Where is the variable “temp” stored?
   * The register r3.
-  
+   
 13. What is the address of the “temp” variable?
    * 0x00002bdc
    
@@ -60,3 +60,16 @@
 20. What happens with the stack pointer before the function returns?
      * Adds the value of r19 to r1 and then adds 12 immediate and keep carry for r1.
      
+##Assignment 2
+1. Which register stores the output of the function “readSwitches”?
+ * r19
+
+2. Which register does the function “readSwitches_writeLed” use to pass the argument to the function “writeLed”?
+ * r5
+ 
+ 3. If a function calls another function, what is stored at the stack pointer, in the stack frame allocated for the caller function? Why?
+  * The start of the other functions stack frame that is called upon. 
+  
+4. What is the size of the stack frame of the function “readSwitches_writeLed”? 
+ * 12 bytes. (3 memory adresses)
+ 
