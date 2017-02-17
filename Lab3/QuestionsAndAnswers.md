@@ -3,8 +3,7 @@
 1. Study the code. What does the program do?
   * The program sets the switches to active and initiates with the leds unactive. Lisens for switches switched and lights the corresponding LED:s.
   
-2.  What is the difference between the memory addresses of two consecutive machine
-instructions?
+2.  What is the difference between the memory addresses of two consecutive machine instructions?
   * 4 Bytes
   
 3. What is the size of each instruction?
@@ -23,8 +22,7 @@ instructions?
   * Branch and link immidiately changes the r15 register.
   
 8.  What does that instruction do?
-  * The instruction copies the adress where we execute a subrutine call. So when we have executed the instructions in the function
-  we can start executing instructions where we called the function again.
+  * The instruction copies the adress where we execute a subrutine call. So when we have executed the instructions in the function we can start executing instructions where we called the function again.
   
 9. What does the value stored in r15 reference to?
  * The address where the function call was made.
