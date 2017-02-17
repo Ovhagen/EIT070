@@ -33,13 +33,13 @@
 11. Which instructions are used to store values in memory?
    * SW and SWI.
 
- 12. Where is the variable “temp” stored?
+12. Where is the variable “temp” stored?
   * The register r3.
   
- 13. What is the address of the “temp” variable?
+13. What is the address of the “temp” variable?
    * 0x00002bdc
    
- 14. The address of the “temp” variable is obtained by adding an immediate value to the value of register r1. What does the value in the register r1 reference to?
+14. The address of the “temp” variable is obtained by adding an immediate value to the value of register r1. What does the value in the register r1 reference to?
     * The stack pointer where variables are stored.
     
 15. What is the size of the stack frame?
