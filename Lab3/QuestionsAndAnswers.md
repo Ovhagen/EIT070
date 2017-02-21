@@ -178,4 +178,3 @@
 9. How is the address obtained?
  * variable display_codes is used in the assembly code and translated to immediate value of memory address by assembler.
  
-
