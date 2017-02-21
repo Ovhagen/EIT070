@@ -156,7 +156,6 @@
 2. Which registers are used to pass arguments to number_of_ones?
  * r5
 
-##Assignment 7
 3. What is passed as input to the subroutine first_position_of_one?
  * the value of the 8 leftmost binaries, shifted down 8 bits to the right
  
