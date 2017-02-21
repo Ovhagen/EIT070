@@ -73,3 +73,45 @@
 4. What is the size of the stack frame of the function “readSwitches_writeLed”? 
  * 12 bytes. (3 memory adresses)
  
+##Assignment 4
+1. At which memory address is the function “readSwitches_writeLed_Assembly” stored?
+ * 000003a8
+ 
+2. Are there any differences between the assembly program and the machine code?
+ * 
+3. How is the “nop” instruction translated?
+ * or r0, r0, r0 which achieves nothing, NOP
+ 
+4. If you compare this program, with the program from Assignment 1, which program is more efficient? Why?
+ * 6 instructions (A) vs 11 instructions (C). Bad compilition.
+ 
+##Assignment 5
+1. How many input arguments are required for the subroutine number_of_ones?
+ * 1
+ 
+2. How many input arguments are required for the subroutine translateN?
+ * 1
+ 
+3. Does the subroutine number_of_ones provide any outputs?
+ * N, the amount of ones in the binary representation of the input
+
+4. Does the subroutine translateN provide any outputs?
+ * Yes, a binary number with N consecutive 1s
+
+5. Which of the subroutines require a stack frame?
+ * function, the other two only use the addresses r2-r12
+ 
+ 6. What is stored in the stack frame, and why?
+  * r15 is stored in the stack frame, PC
+ 
+ 7. How are arguments passed from a caller to a callee subroutine?
+  * r5 passes the argument
+  
+ 8. Which register is used to return an output from a callee to a caller subroutine?
+  * r3
+  
+ 9. The subroutines number_of_ones and translateN implement a loop. How are the loops implemented in these subroutines?
+  * check if r5 is zero, if not continue and r5>>1 and jump back to label while:, if zero jump to label result:translateN will loop N times; if r5 = 0 jump to done: else continue and r5--; then jump back up to again:
+ 
+ 10. The global symbols are translated into memory addresses. What are the memory addresses for the symbols: function, translateN, and number_of_ones?
+  * 000003c0 function, 000003fc number_of_ones, 00000424 translateN
