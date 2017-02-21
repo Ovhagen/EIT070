@@ -73,6 +73,15 @@
 4. What is the size of the stack frame of the function “readSwitches_writeLed”? 
  * 12 bytes. (3 memory adresses)
  
+ ##Assignment 3
+ 
+ 	1	 2	 3	 4	 5	 6  7  8
+
+	36	36	36	36	36	36	40	44
+	r5	r5	r5	r5	r5	r5	r5	r5
+		r3	r3	r3	r3	r3	r3	r3
+								r4
+ 
 ##Assignment 4
 1. At which memory address is the function “readSwitches_writeLed_Assembly” stored?
  * 000003a8
