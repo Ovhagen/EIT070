@@ -21,6 +21,7 @@
  * Since the blinker is set to On and Off by the variable blinkerOnOff, if one presses a change index button the lighten blinker will still be active. To prevent this we keep track of the previous index and make sure that when we change index we have an empty blinker on the previous index location.
  
 8. Can an interrupt request interrupt the processor while it is is executing an interrupt handler of another interrupt request?  
- * No. The interrupt pending register will prevent will prevent an active IRQ being handled from being interrupted.
+ * Yes. 
  
- 
+9. What is the conclusion?
+ * When the 2nd bit in the rmsr is set then interrupts can occur. When this is set it iss possible to interrupt another interrupt request
